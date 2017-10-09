@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08.10.2017, 21:44:56
+    Author     : FIRST_ACER
+*/
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 766px;
+  margin: 0 auto; }
+  .wrapper .about_short, .wrapper .about_more, .wrapper .in_conclusion {
+    padding: 33px 12px 27px 12px;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 30px; }
+    .wrapper .about_short .rubric_head, .wrapper .about_more .rubric_head, .wrapper .in_conclusion .rubric_head {
+      position: absolute;
+      top: -30px;
+      left: 14px; }
+    .wrapper .about_short .about_short_firstName, .wrapper .about_short .about_short_surname, .wrapper .about_more .about_short_firstName, .wrapper .about_more .about_short_surname, .wrapper .in_conclusion .about_short_firstName, .wrapper .in_conclusion .about_short_surname {
+      width: 262px;
+      height: 20px; }
+    .wrapper .about_short .age, .wrapper .about_more .age, .wrapper .in_conclusion .age {
+      width: 52px;
+      height: 20px; }
+  .wrapper .about_more {
+    padding: 15px 12px 27px 12px; }
+    .wrapper .about_more .about_more_input_text {
+      width: 142px;
+      height: 22px; }
+    .wrapper .about_more textarea {
+      width: 410px;
+      height: 142px; }
+
+/*# sourceMappingURL=style.css.map */

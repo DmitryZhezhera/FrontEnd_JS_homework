@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08.10.2017, 21:44:56
+    Author     : FIRST_ACER
+*/
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 766px;
+    margin: 0 auto;
+    .about_short, .about_more, .in_conclusion{
+        padding: 33px 12px 27px 12px;
+        border:1px solid black;
+        position: relative;
+        margin-bottom:30px;
+        .rubric_head{
+            position: absolute;
+            top:-30px;
+            left:14px;
+        }
+        .about_short_firstName, .about_short_surname{
+            width: 262px;
+            height: 20px;
+        }
+        .age{
+            width:52px;
+            height: 20px;
+        }     
+    }
+    .about_more{
+        padding: 15px 12px 27px 12px;
+        .about_more_input_text{
+            width:142px;
+            height: 22px;
+        }
+        textarea{
+            width:410px;
+            height: 142px;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <form action="#">
+                <div class="about_short">
+                    <h4 class="rubric_head">Коротко о себе</h4>
+                    Имя: <input type="text" class="about_short_firstName"> <br><br>
+                    Фамилия: <input type="text" class="about_short_surname"><br><br>
+                    Пол: <input type="radio" name="gender" checked> мужской <input type="radio" name="gender"> женский<br><br>
+                    Возраст: <input type="text" class="age"> лет<br>
+                </div>
+                <div class="about_more">
+                    <h4 class="rubric_head">Подробнее о себе</h4>
+                    <input type="radio" name="about_gender" checked>Mолодой человек<br> 
+                    <input type="radio" name="about_gender">Девушка<br>
+                    <input type="text" class="about_more_input_text"> Дата рождения<br>
+                    <input type="text" class="about_more_input_text"> Семейное положение<br>
+                    <input type="text" class="about_more_input_text"> Социальный статус<br>
+                    <input type="text" class="about_more_input_text"> Местожительства
+                    <h4>Что вы обычно делаете на выходные</h4>
+                    <input type="checkbox"> Сплю<br>
+                    <input type="checkbox"> Гуляю с друзьями<br>
+                    <input type="checkbox"> Хожу на рыбалку<br>
+                    <input type="checkbox"> Играю в игры<br>
+                    <h4>Расскажите о формах в книге, посвященной HTML</h4> 
+                    <select name="form_books">
+                        <option>Site frequency:</option>
+                        <option>book 2</option>
+                        <option>book 3</option>
+                    </select>
+                    <h4>Сколько книг вы прочитали за свою жизнь:</h4>
+                    <input type="radio" name="radio_NBooksReaded" value="" /> 0-10<br>
+                    <input type="radio" name="radio_NBooksReaded" value="" /> 11-20<br>
+                    <input type="radio" name="radio_NBooksReaded" value="" /> 21-50<br>
+                    <input type="radio" name="radio_NBooksReaded" value="" /> 50+<br>
+                    <h4>Ваши комментарии:</h4>
+                    <textarea name="ta_you_comments" id="ta_you_comments"></textarea><br>
+                    <select name="positions" size="3">
+                        <option>Первая позиция</option>
+                        <option>Вторая позиция</option>
+                        <option>Третья позиция</option>
+                        <option>Четвертая позиция</option>
+                        <option>Пятая позиция</option>
+                    </select>
+                </div>
+                <div class="in_conclusion">
+                    <h4 class="rubric_head">И в заключение</h4>
+                    <input type="text" name="someText" value="Это поле было введено до Вас" size="50" />    
+                    <br>
+                    <h4>Email:</h4>
+                    <input type="email">
+                    <h4>Хотите подписаться на самую модную рассылку спама?</h4>
+                    <i>Выберите категурии</i><br>
+                    <input type="checkbox" name="spam_cb_items"/> Оборудование<br>
+                    <input type="checkbox" name="spam_cb_items"/> Как приготовить обед<br>   
+                    <input type="checkbox" name="spam_cb_items"/> Заработай милион за два дня!
+                    <h4>На сколько сложная задача:</h4>
+                    <input type="radio" name="task_difficalty" value="" /> Совсем нет<br>
+                    <input type="radio" name="task_difficalty" value="" /> Так себе<br>
+                    <input type="radio" name="task_difficalty" value="" /> Еле справились
+                </div>       
+                <input type="submit" value="Отправить" name="submit" />
+            </form>
+        </div>
+    </body>
+</html>
